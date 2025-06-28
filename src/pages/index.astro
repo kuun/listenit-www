@@ -1,0 +1,127 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="ListenIt - Make AI powered podcast" description="ListenIt uses AI to transform your articles, web pages, and documents into engaging dialogue-based podcasts with synchronized subtitles.">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-black bg-opacity-30 backdrop-blur-lg">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="text-2xl font-bold text-white">ListenIt</div>
+      <nav class="hidden md:flex space-x-8">
+        <a href="#features" class="text-gray-300 hover:text-white transition-all duration-300 hover:-translate-y-1">Features</a>
+        <a href="#pricing" class="text-gray-300 hover:text-white transition-all duration-300 hover:-translate-y-1">Pricing</a>
+        <a href="#faq" class="text-gray-300 hover:text-white transition-all duration-300 hover:-translate-y-1">FAQ</a>
+      </nav>
+      <a href="#" class="bg-gray-700 text-white font-bold py-2 px-4 rounded-lg text-sm opacity-50 cursor-not-allowed">
+        Coming Soon to App Store
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="pt-32 pb-20 text-center">
+    <div class="container mx-auto px-6">
+      <h1 class="text-4xl md:text-7xl font-bold leading-tight mb-4">
+          Make AI powered podcast<br /> Listen it on the go.
+        </h1>
+      <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8">
+        ListenIt uses advanced AI to generate natural-sounding podcasts from your articles, reports, or web links, complete with two AI hosts and synchronized subtitles.
+      </p>
+      <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105">
+        Join the Waitlist
+      </a>
+    </div>
+  </main>
+
+  <!-- Features Section -->
+  <section id="features" class="py-20 bg-gray-800">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Core Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Feature 1 -->
+        <div class="bg-gray-700 p-8 rounded-lg text-center transition-all duration-300 hover:bg-gray-600 hover:-translate-y-2 hover:shadow-lg">
+          <h3 class="text-2xl font-bold mb-4">AI-Powered Dialogue</h3>
+          <p class="text-gray-400">Brings your content to life with a dynamic two-person AI host conversation.</p>
+        </div>
+        <!-- Feature 2 -->
+        <div class="bg-gray-700 p-8 rounded-lg text-center transition-all duration-300 hover:bg-gray-600 hover:-translate-y-2 hover:shadow-lg">
+          <h3 class="text-2xl font-bold mb-4">Make Engaging Audio</h3>
+          <p class="text-gray-400"> Easily convert articles, blogs, or notes into captivating and easy-to-understand audio experiences.</p>
+        </div>
+        <!-- Feature 3 -->
+        <div class="bg-gray-700 p-8 rounded-lg text-center transition-all duration-300 hover:bg-gray-600 hover:-translate-y-2 hover:shadow-lg">
+          <h3 class="text-2xl font-bold mb-4">Listen to Webpages On-the-Go</h3>
+          <p class="text-gray-400">Catch up on unfinished reads by listening to webpages during your commute or anytime, anywhere.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Pricing Plans</h2>
+      <div class="flex flex-col md:flex-row justify-center gap-8">
+        <!-- Free Plan -->
+        <div class="bg-gray-800 p-8 rounded-lg w-full md:w-1/3 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+          <h3 class="text-2xl font-bold mb-4">Free</h3>
+          <p class="text-5xl font-bold mb-6">$0</p>
+          <ul class="text-gray-400 space-y-2 mb-6">
+            <li>100 credits per month</li>
+            <li>Default AI voices</li>
+            <li>Core features</li>
+          </ul>
+          <a href="#" class="border border-blue-600 text-blue-600 font-bold py-2 px-4 rounded-lg w-full text-center block">Get Started for Free</a>
+        </div>
+        <!-- Premium Plan -->
+        <div class="bg-blue-600 p-8 rounded-lg w-full md:w-1/3 text-white transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+          <h3 class="text-2xl font-bold mb-4">Premium</h3>
+          <p class="text-5xl font-bold mb-6">$4.99<span class="text-lg">/mo</span></p>
+          <ul class="space-y-2 mb-6">
+            <li>1000 credits per month</li>
+            <li>Multiple AI voices</li>
+            <li>Future premium features</li>
+          </ul>
+          <a href="#" class="bg-white text-blue-600 font-bold py-2 px-4 rounded-lg w-full text-center block">Upgrade to Premium</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="py-20 bg-gray-800">
+    <div class="container mx-auto px-6 max-w-3xl">
+      <h2 class="text-4xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        <!-- FAQ 1 -->
+        <details class="bg-gray-700 p-4 rounded-lg transition-all duration-300 hover:bg-gray-600">
+          <summary class="font-bold cursor-pointer">How does ListenIt work?</summary>
+          <p class="pt-2 text-gray-400">ListenIt takes your input text, and our AI generates a script for a two-person podcast. Then, we synthesize the audio and subtitles, delivering a complete podcast to you.</p>
+        </details>
+        <!-- FAQ 2 -->
+        <details class="bg-gray-700 p-4 rounded-lg transition-all duration-300 hover:bg-gray-600">
+          <summary class="font-bold cursor-pointer">How are credits calculated?</summary>
+          <p class="pt-2 text-gray-400">Credits are based on the amount of text processed and the length of the generated audio. We will provide a detailed breakdown upon launch.</p>
+        </details>
+        <!-- FAQ 3 -->
+        <details class="bg-gray-700 p-4 rounded-lg transition-all duration-300 hover:bg-gray-600">
+          <summary class="font-bold cursor-pointer">Is my data secure?</summary>
+          <p class="pt-2 text-gray-400">Yes, we take data security very seriously. All your data is encrypted and stored securely.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center text-gray-500">
+    <div class="container mx-auto px-6">
+      <p>&copy; 2025 ListenIt. All rights reserved.</p>
+      <div class="mt-4">
+        <a href="#" class="text-gray-400 hover:text-white mx-2 transition-all duration-300 hover:-translate-y-1">Terms of Service</a>
+        <a href="#" class="text-gray-400 hover:text-white mx-2 transition-all duration-300 hover:-translate-y-1">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+</Layout>
