@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+---
+
+<Layout title="Contact Us - ListenIt">
+  <Header />
+  <main class="container mx-auto px-6 py-32 text-center">
+    <h1 class="text-4xl md:text-7xl font-bold leading-tight mb-4">Contact Us</h1>
+    <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-12">
+      We'd love to hear from you. Please reach out to us with any questions or feedback.
+    </p>
+    <div class="flex flex-col md:flex-row justify-center gap-12">
+      <div class="bg-gray-800 p-8 rounded-lg w-full md:w-1/2">
+        <h2 class="text-2xl font-bold mb-4">Email Us</h2>
+        <a href="mailto:ankely@listenit.ai" class="text-xl text-blue-500 hover:underline">ankely@listenit.ai</a>
+      </div>
+      <div class="bg-gray-800 p-8 rounded-lg w-full md:w-1/2">
+        <h2 class="text-2xl font-bold mb-4">Our Address</h2>
+        <p class="text-xl text-gray-400">Building C, No. 888, Huanhu West 2nd Road, Lingang New Area, China (Shanghai) Pilot Free Trade Zone</p>
+      </div>
+    </div>
+  </main>
+</Layout>
